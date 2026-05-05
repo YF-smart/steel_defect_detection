@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# 虚拟环境
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# 模型权重
+outputs/*.pt
+weights/*.pt
+outputs/train/
+outputs/runs/
+
+# YOLO 转换后的数据
+data/yolo_dataset/
+
+# 临时文件
+*.log
+*.tmp
+Thumbs.db
+desktop.ini
